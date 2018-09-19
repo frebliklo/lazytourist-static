@@ -1,0 +1,24 @@
+.not-found {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  &__title {
+    display: block;
+    color: $color-violet-dark;
+  }
+
+  &__sub-title {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 1.6rem;
+  }
+
+  &__paragraph {
+    display: block;
+  }
+
+}
